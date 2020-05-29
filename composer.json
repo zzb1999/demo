@@ -1,0 +1,22 @@
+{
+    "name": "zzb1999/demo",
+    "description": "composer",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "laot",
+            "email": "1477821088@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "files": [
+          "src/helper.php"
+        ],
+        "psr-4": {
+          "zzb1999\\demo\\": "src"
+        }
+    }
+}
